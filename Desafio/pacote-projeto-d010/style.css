@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+body{
+    background-color: rgb(33, 83, 31);
+}
+main{
+ background-color: white;
+ width: 800px;
+ border: center;
+}
+header{
+    background-color: rgb(76, 184, 73);
+    height: 150px;
+   color: aliceblue;
+   text-align: center;
+   text-decoration: none;
+}
+header>nav{
+    text-align: left;
+    color: rgb(248, 248, 248);   
+}
+nav:hover{
+    color: aliceblue;
+}
+footer{
+    background-color: white;
+    width: 800px;
+}
+#extra{
+    color: white;
+    background-color: rgb(39, 197, 7);
+    padding: 10px;
+    border-radius: 1px;
+}
+footer{
+    background-color: rgb(255, 255, 255);
+}
+article{
+    background-color: rgb(112, 170, 127);
+    color: rgb(20, 10, 10);
+    border:10px;
+    box-shadow: 10px;
+    width: 600px;
+    height: 600px;
+    border-radius: 30px;
+    
+
+}
+#lista1{
+    text-align: right;
+}
+#liste2{
+
+    text-align:top, left;
+}
+#escrito{
+    background-color: rgb(76, 184, 73);
+    width: 800px;
+    text-align: center;
+    text-decoration: double;
+    
+}
+

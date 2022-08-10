@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia-Imagens Dinamica</title>
+</head>
+<body>
+    <h1>Imagem Dinamica</h1>
+    <p>Tente abrir esse site em varias formas diferente ou Simplesmente aumenta ou diminua o tamanho do seu navegador </p>
+
+    <picture>
+        <!-- diferentes imagen ou imagens dinamica -->
+        <source media="(max-width: 750px)" srcset="imagem/fotosP.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagem/fotosM.png" type="image/png">
+       <img src="imagem/fotosG.png" alt="ImagemFlexsivel">
+    </picture>
+
+    <h1>Reproduzindo Audio</h1>
+    <p>Vamos aprender a reproduzir audio em Html5</p>
+    <audio src="midia/Música/Debaixo dos lençóis.mp3" controls loop></audio>
+    <!-- MP3 WAv OGG -->
+    <!-- autoplay usa-se queres ouvir a musica no editor de codigo -->
+    <audio>
+        <source src="midia/Pray - Anno Domini Beats.mp3" type="audio/mp3">
+        <source src="midia/Pray - Anno Domini Beats.wav" type="audio/wav">
+        <source src="midia/Pray - Anno Domini Beats.ogg" type="audio/ogg">
+    </audio>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(60, 71, 71);
+    display: flexbox;
+}
+
+.basico{
+    color: blue;
+}
+.intermediario{
+    color: brown;
+    background-color: rgb(134, 125, 125);
+    border-radius: 10px;
+    width: 600px;
+}
+.avancado{
+    color: chartreuse;
+}
